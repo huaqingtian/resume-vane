@@ -20,11 +20,18 @@ var swiper = new Swiper('.swiper-container',{
     swiperAni.swiperAnimate(swiper);
   } 
 });
+
+if(localStorage.cookie){
+	$(".swiper-container").hide();
+	$("#mainContainer").show();
+
+}
 var myScroll;
 var index=0;
 $("#enter").tap(function(){
 	$(".swiper-container").hide();
 	$("#mainContainer").show();
+	localStorage.cookie=true;
 	
 	$.post('http://localhost:8000/skill',function(data){
 		var html = "";	
