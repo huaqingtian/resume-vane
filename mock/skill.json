@@ -9,7 +9,7 @@
 	{
 		"src":"../images/js.jpg",
 		"category":"JS",
-		"name":"AngularJs、Javascript、JQuery、NodeJs等",
+		"name":"AngularJs、Js、JQuery、NodeJs等",
 		"time":"2年",
 		"level":"熟悉"
 	},
@@ -37,7 +37,7 @@
 	{
 		"src":"../images/angularJs.jpg",
 		"category":"布局",
-		"name":"Fixed、Fulid、Flex、Responsive",
+		"name":"Fixed、Flex、Responsive",
 		"time":"2年",
 		"level":"精通"
 	},
@@ -79,7 +79,7 @@
 	{
 		"src":"../images/angularJs.jpg",
 		"category":"布局",
-		"name":"Fixed、Fulid、Flex、Responsive",
+		"name":"Fixed、Flex、Responsive",
 		"time":"3年",
 		"level":"精通"
 	},

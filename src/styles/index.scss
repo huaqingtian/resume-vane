@@ -40,23 +40,24 @@ body {
 
 
 .headimg{
-	width:110px;
-	height:110px;
+	width:120px;
+	height:120px;
 	color:red;
 	border-radius:50%;
 	position: relative;
 	margin:0 auto;
-	animation-name:headani;
+	/* animation-name:headani;
 	animation-duration: 1.5s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 	animation-direction: normal;
-	animation-play-state: running;	
+	animation-play-state: running;	 */
 }
 .headimg img{
 	display: block;
-	width:110px;
-	height: 110px;
+	width:120px;
+	height: 120px;
+	border-radius: 50%;
 	position: absolute;
 	top:0px;
 	left:0px;	
@@ -146,7 +147,7 @@ body {
 	width:120px;
 	height: 120px;
 	animation-name:circle;
-	animation-duration: 10s;
+	animation-duration: 4s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 	animation-direction: normal;
@@ -236,25 +237,36 @@ body {
 	top:110px;
 	left:112px;
 }
+@-webkit-keyframes scale1{
+    0%{ transform:scale(0.75,0.75); }
+    100%{ transform:scale(1,1); }
 .liu7 img{
 	display: block;
 	width:120px;
 	height:120px;
 }
 
+
+}
 .sk0{
-	color:#fff;
+	color:#C70101;
 	font-size: 30px;
 	font-weight: 700;
 	position: absolute;
 	top:120px;
 	left:142px;
+	animation-name:scale1;
+	animation-duration: 25s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-play-state: running;
 }
 .sk1{
 	color:#fb0528;
 	font-size: 18px;
 	position: absolute;
-	top:30px;
+	top:34px;
 	left:15px;
 }
 .sk2{
@@ -262,34 +274,34 @@ body {
 	font-size: 18px;
 	position: absolute;
 	top:30px;
-	left:45px;
+	left:48px;
 }
 .sk3{
 	color:#fbf205;
 	font-size: 18px;
 	position: absolute;
 	top:30px;
-	left:35px;
+	left:30px;
 }
 .sk4{
 	color:#05fb2d;
 	font-size: 18px;
 	position: absolute;
-	top:30px;
-	left:25px;
+	top:36px;
+	left:26px;
 }
 .sk5{
 	color:#05fbf2;
 	font-size: 18px;
 	position: absolute;
-	top:30px;
-	left:25px;
+	top:34px;
+	left:22px;
 }
 .sk6{
 	color:#fb05e7;
 	font-size: 18px;
 	position: absolute;
-	top:30px;
+	top:36px;
 	left:30px;
 }
 
@@ -313,8 +325,20 @@ body {
 	border-radius: 4px 4px 4px 4px;
 	position: absolute;
 }
+@-webkit-keyframes scale{
+    0%{ transform:scale(1,1); }
+    50%{ transform:scale(0.7,0.7); }
+    100%{ transform:scale(0.5,0.5); }
+
+}
 .shu img{
 	animation-name:circle;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-play-state: running;
+	animation-name:scale;
 	animation-duration: 5s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
