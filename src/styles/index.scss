@@ -130,7 +130,7 @@ body {
     0%{ transform:rotate(0deg); }
     100%{ transform:rotate(-360deg); }
 }
-#skill{
+#skill_one{
 	width:350px;
 	height:350px;
 	border:1px solid #069FED;
@@ -141,7 +141,7 @@ body {
 	position: relative;
 }
 
-#skill img{
+#skill_one img{
 	display: block;
 	width:120px;
 	height: 120px;
@@ -500,6 +500,10 @@ body {
 	align-items: center;
 	
 }
+#footer div:hover{
+	color:orange;
+	opacity: 0.6;
+}
 #footer i{
 	font-size: 18px;
 	margin-bottom: 4px
@@ -507,10 +511,7 @@ body {
 .foot_1{
 	margin-left: 10px;
 }
-.footstyle{
-	color:orange;
-	opacity: 0.6;
-}
+
 
 #wrapper {
 	position: absolute;
