@@ -75,14 +75,14 @@ $("#footer .foot").tap(function(){
 				+data[i].level+"</span></p></div></div>"
 				break;
 				case "project":
-				html+="<div class='ski_part1'><div class='project_img'><img src="
+				html+="<div class='ski_part1' style='height:350px'><div class='project_img'><img src="
 				+data[i].src+">"
 				+"</div><div class='state1'><p>网站类型:<span>"
 				+data[i].category + "</span></p><p>企业名称:<span>"
 				+data[i].name+"</span></p><p>网站IP:<span>"
-				+data[i].url+"</span></p><p style='margin-top:20px'>描述:<span>"
-				+data[i].description+"</span></p><p style='margin-top:20px'>详情:<span>"
-				+data[i].detail+"</span></p><p style='margin-top:20px'>涉及:<span>"
+				+data[i].url+"</span></p><p>描述:<span>"
+				+data[i].description+"</span></p><p>详情:<span>"
+				+data[i].detail+"</span></p><p>涉及:<span>"
 				+data[i].tech+"</span></p></div></div>"
 				break;
 				case "work":
@@ -116,7 +116,7 @@ $("#footer .foot").tap(function(){
 				+data[i].jiang1+"><img class='jiang2' src="
 				+data[i].jiang2+"><img class='jiang3' src="
 				+data[i].jiang3+"></div><div class='ski_part_me'><p  style='padding-top: 5px'>"
-				+data[i].introduce+"</p><p>"
+				+data[i].introduce+"</p><p style='padding-bottom:200px'>"
 				+data[i].introduceme+"</p></div>"
 				break;
 			}					

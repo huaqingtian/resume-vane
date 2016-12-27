@@ -1,52 +1,52 @@
 ﻿[
 	{
 		"src":"../images/html5.jpg",
-		"category":"规范",
-		"name":"HTML、CommonJS、CMD、AMD",
+		"category":"HTML",
+		"name":"HTML5、Css3、Commonjs、JQuery",
 		"time":"1年",
-		"level":"了解"
+		"level":"熟悉"
 	},
 	{
 		"src":"../images/js.jpg",
-		"category":"框架",
-		"name":"AngularJs、Recat、Avalon等",
+		"category":"JS",
+		"name":"AngularJs、Javascript、JQuery、NodeJs等",
 		"time":"2年",
 		"level":"熟悉"
 	},
 	{
 		"src":"../images/bootstrap.jpg",
 		"category":"框架",
-		"name":"Mui、Yo、Ionic等",
-		"time":"2年",
+		"name":"EasyUi、Bootstrap、IonicFont等",
+		"time":"1年",
 		"level":"熟悉"
 	},
 	{
 		"src":"../images/node.jpg",
 		"category":"类库",
 		"name":"Swiper、Iscroll等",
-		"time":"2年",
+		"time":"1年",
 		"level":"熟悉"
 	},
 	{
 		"src":"../images/recat.jpg",
 		"category":"插件",
-		"name":"Jquery nav plugin、zepto等",
-		"time":"2年",
+		"name":"Jquery、zepto、Animate等",
+		"time":"1年",
 		"level":"熟悉"
 	},
 	{
 		"src":"../images/angularJs.jpg",
 		"category":"布局",
 		"name":"Fixed、Fulid、Flex、Responsive",
-		"time":"3年",
+		"time":"2年",
 		"level":"精通"
 	},
 	{
 		"src":"../images/node.jpg",
 		"category":"程序",
 		"name":"原生、插件、AngularJs等",
-		"time":"3年",
-		"level":"精通"
+		"time":"2年",
+		"level":"熟悉"
 	},
 	{
 		"src":"../images/js.jpg",
@@ -63,14 +63,14 @@
 		"level":"熟悉"
 	},
 	{
-		"src":"../images/node.jpg",
+		"src":"../images/recat.jpg",
 		"category":"类库",
 		"name":"Swiper、Iscroll等",
 		"time":"2年",
 		"level":"熟悉"
 	},
 	{
-		"src":"../images/recat.jpg",
+		"src":"../images/js.jpg",
 		"category":"插件",
 		"name":"Jquery nav plugin、zepto等",
 		"time":"2年",
